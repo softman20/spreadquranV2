@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="ar-AR" dir="rtl">
+<!--<![endif]-->
+	<head>
+		<!-- meta -->
+		<title>Spread The Quran - تفسير وترجمة معاني القرآن الكريم</title>
+<meta name="google-site-verification" content="w-uURofgPqGkY2-iBoM5gSpXriJHf9V__dQzF_d2rGk" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.css">
+	    <link rel="stylesheet" href="css/main.css">
+
+	    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.js"></script>
+		<![endif]-->
+
+		<!--[if IE 8]>
+	    	<script src="assets/js/selectivizr.js"></script>
+	    <![endif]-->
+		 <meta name="Description" CONTENT="تستطيع بإذن الله عن طريق هذا البرنامج ،الإستماع و قراءة و تصفح و تفسير  وترجمة القرآن الكريم آية آية إلى أكثر من 25 لغة والعديد من القراء والإطلاع على مختلف التفاسير لإبن كثير، الجلالين ، الطبري والقرطبي.">
+ <meta property="fb:app_id" content="179229142087638" />
+        <meta property="og:title" content="SpreadQuran.com" />
+        <meta property="og:image" content="http://www.spreadquran.com/img/quran_logo.jpg" />
+        <meta property="og:url" content="http://apps.facebook.com/quran_tafsir/" />
+        <meta property="og:type" content="quran_tafsir:meaning_of_quran" />
+        
+<link rel="icon" href="quran.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="css/site.css">
+
+<!-- Bootstrap 2.0 -->
+
+<!--<link rel="stylesheet" href="css/bootstrap-responsive.css" >-->
+<link rel="stylesheet" href="css/jquery.webui-popover.css">
+<link rel="stylesheet" href="css/audioplayer.css">
+<link rel="stylesheet" href="css/fb-buttons.css">
+
+<style>
+.row {
+    margin-top:10px;
+}
+
+.sidebar-outer {
+    position: relative;
+}
+	 @media (max-width: 480px) { .soura {margin-left:0;}}
+	 @media (max-width: 767px) { .soura {margin-left:0;}}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: relative;
+    }
+}
+
+</style>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/script.js"></script>
+
+<script src="js/jquery.webui-popover.js"></script>
+<script src="js/audioplayer.js"></script>
+<script src="js/functions.js"></script>
+
+ 
+
+
+<script>
+
+$( document ).ready(function() {
+
+	
+   
+		  
+	$( function()
+	{
+		$( 'audio' ).audioPlayer();
+	});
+
+   getSouraAjax(1);
+   
+
+});
+
+</script>
+	</head>
+<body>
+<div id="fb-root"></div>
+<script>
+ window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '179229142087638',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+
+    // ADD ADDITIONAL FACEBOOK CODE HERE
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+/*
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=179229142087638&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+*/
+</script>
+<input type="hidden" id="hidTransLang" />
+	 
+
+	<!-- Navigation -->
+	<section class="navigation_bar">
+		
+
+		<nav class="navbar navbar-default navigation">
+			<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header" style="float:none">
+					<table style="margin:0 auto">
+					
+					 <tr>
+					
+					<td>
+					<div>
+					
+		 
+					 <!--  div reader -->
+          <div id="divReader">
+            <div>
+                <audio id="audioSurahReader" preload="auto" controls>
+                <source src="http://ia601408.us.archive.org/17/items/soudais_surah/001.mp3" />
+                </audio>
+	            <div class="audioPlayerTitle">سورة &#65279;الفاتحة  - عبد الرحمن السديس</div>
+            </div>
+            
+           </div> 
+           <!-- end div reader -->
+		   <p>
+                    
+                    <select style="font-size:18px" id="selectList" onChange="getSouraAjax()">
+					   <option value="1" title="﻿الفاتحة"  selected="selected"  >﻿الفاتحة</option><option value="2" title="البقرة"  >البقرة</option><option value="3" title="آل عمران"  >آل عمران</option><option value="4" title="النساء"  >النساء</option><option value="5" title="المائدة"  >المائدة</option><option value="6" title="الأنعام"  >الأنعام</option><option value="7" title="الأعراف"  >الأعراف</option><option value="8" title="الأنفال"  >الأنفال</option><option value="9" title="التوبة"  >التوبة</option><option value="10" title="يونس"  >يونس</option><option value="11" title="هود"  >هود</option><option value="12" title="يوسف"  >يوسف</option><option value="13" title="الرعد"  >الرعد</option><option value="14" title="إبراهيم"  >إبراهيم</option><option value="15" title="الحجر"  >الحجر</option><option value="16" title="النحل"  >النحل</option><option value="17" title="الإسراء"  >الإسراء</option><option value="18" title="الكهف"  >الكهف</option><option value="19" title="مريم"  >مريم</option><option value="20" title="طه"  >طه</option><option value="21" title="الأنبياء"  >الأنبياء</option><option value="22" title="الحج"  >الحج</option><option value="23" title="المؤمنون"  >المؤمنون</option><option value="24" title="النور"  >النور</option><option value="25" title="الفرقان"  >الفرقان</option><option value="26" title="الشعراء"  >الشعراء</option><option value="27" title="النمل"  >النمل</option><option value="28" title="القصص"  >القصص</option><option value="29" title="العنكبوت"  >العنكبوت</option><option value="30" title="الروم"  >الروم</option><option value="31" title="لقمان"  >لقمان</option><option value="32" title="السجدة"  >السجدة</option><option value="33" title="الأحزاب"  >الأحزاب</option><option value="34" title="سبأ"  >سبأ</option><option value="35" title="فاطر"  >فاطر</option><option value="36" title="يس"  >يس</option><option value="37" title="الصافات"  >الصافات</option><option value="38" title="ص"  >ص</option><option value="39" title="الزمر"  >الزمر</option><option value="40" title="غافر"  >غافر</option><option value="41" title="فصلت"  >فصلت</option><option value="42" title="الشورى"  >الشورى</option><option value="43" title="الزخرف"  >الزخرف</option><option value="44" title="الدخان"  >الدخان</option><option value="45" title="الجاثية"  >الجاثية</option><option value="46" title="الأحقاف"  >الأحقاف</option><option value="47" title="محمد"  >محمد</option><option value="48" title="الفتح"  >الفتح</option><option value="49" title="الحجرات"  >الحجرات</option><option value="50" title="ق"  >ق</option><option value="51" title="الذاريات"  >الذاريات</option><option value="52" title="الطور"  >الطور</option><option value="53" title="النجم"  >النجم</option><option value="54" title="القمر"  >القمر</option><option value="55" title="الرحمن"  >الرحمن</option><option value="56" title="الواقعة"  >الواقعة</option><option value="57" title="الحديد"  >الحديد</option><option value="58" title="المجادلة"  >المجادلة</option><option value="59" title="الحشر"  >الحشر</option><option value="60" title="الممتحنة"  >الممتحنة</option><option value="61" title="الصف"  >الصف</option><option value="62" title="الجمعة"  >الجمعة</option><option value="63" title="المنافقون"  >المنافقون</option><option value="64" title="التغابن"  >التغابن</option><option value="65" title="الطلاق"  >الطلاق</option><option value="66" title="التحريم"  >التحريم</option><option value="67" title="الملك"  >الملك</option><option value="68" title="القلم"  >القلم</option><option value="69" title="الحاقة"  >الحاقة</option><option value="70" title="المعارج"  >المعارج</option><option value="71" title="نوح"  >نوح</option><option value="72" title="الجن"  >الجن</option><option value="73" title="المزّمِّل"  >المزّمِّل</option><option value="74" title="المدّثر"  >المدّثر</option><option value="75" title="القيامة"  >القيامة</option><option value="76" title="الإنسان"  >الإنسان</option><option value="77" title="المرسلات"  >المرسلات</option><option value="78" title="النبأ"  >النبأ</option><option value="79" title="النازعات"  >النازعات</option><option value="80" title="عبس"  >عبس</option><option value="81" title="التكوير"  >التكوير</option><option value="82" title="الإنفطار"  >الإنفطار</option><option value="83" title="المطففين"  >المطففين</option><option value="84" title="الانشقاق"  >الانشقاق</option><option value="85" title="البروج"  >البروج</option><option value="86" title="الطارق"  >الطارق</option><option value="87" title="الأعلى"  >الأعلى</option><option value="88" title="الغاشية"  >الغاشية</option><option value="89" title="الفجر"  >الفجر</option><option value="90" title="البلد"  >البلد</option><option value="91" title="الشمس"  >الشمس</option><option value="92" title="الليل"  >الليل</option><option value="93" title="الضحى"  >الضحى</option><option value="94" title="الشرح"  >الشرح</option><option value="95" title="التين"  >التين</option><option value="96" title="العلق"  >العلق</option><option value="97" title="القدر"  >القدر</option><option value="98" title="البينة"  >البينة</option><option value="99" title="الزلزلة"  >الزلزلة</option><option value="100" title="العاديات"  >العاديات</option><option value="101" title="القارعة"  >القارعة</option><option value="102" title="التكاثر"  >التكاثر</option><option value="103" title="العصر"  >العصر</option><option value="104" title="الهُمَزَة"  >الهُمَزَة</option><option value="105" title="الفيل"  >الفيل</option><option value="106" title="قريش"  >قريش</option><option value="107" title="الماعون"  >الماعون</option><option value="108" title="الكوثر"  >الكوثر</option><option value="109" title="الكافرون"  >الكافرون</option><option value="110" title="النصر"  >النصر</option><option value="111" title="المسد"  >المسد</option><option value="112" title="الإخلاص"  >الإخلاص</option><option value="113" title="الفلق"  >الفلق</option><option value="114" title="الناس"  >الناس</option>                   </select>
+					 
+               
+               <select style="font-size:17px" id="selectReader" onChange="changeReader()">
+             <!--  <option value="muaiqli" title="ماهر المعيقلي">ماهر المعيقلي</option> -->
+               <option value="soudais" title="عبد الرحمن السديس">عبد الرحمن السديس</option>
+               <option value="shuraim" title="سعود الشريم">سعود الشريم</option>
+               <option value="Ali-Barraq" title="علي البراق">علي البراق</option>       
+               <option value="Maher_maaykli" title="ماهر  المعيقلي">ماهر  المعيقلي</option>       
+               <option value="Abdelbasset" title="عبد الباسط عبد الصمد">عبد الباسط عبد الصمد</option>       
+               <option value="Mishary-El-Afasi" title="مشاري راشد العفاسي">مشاري راشد العفاسي</option>              
+               <option value="AlAjmi" title="أحمد العجمي">أحمد العجمي</option>
+               <option value="AbuBakrAs-Shatery" title="أبو بكر الشاطري">أبو بكر الشاطري</option>
+               <option value="AbduLLahAl-Matrood" title="عبد الله مطرود">عبد الله مطرود</option>
+               <option value="Al-Ghaamidi" title="سعد الغامدي">سعد الغامدي</option>
+               <option value="HassanIbrahimHashem" title="حسن إبراهيم هاشم">حسن إبراهيم هاشم</option>
+               <option value="Hussary" title="محمود خليل الحصري">محمود خليل الحصري</option>
+               <option value="Huzify" title="عبدالرحمن حذيفي">عبدالرحمن حذيفي</option>
+               <option value="IbraheemAl-Akhdar" title="إبراهيم الأخضر">إبراهيم الأخضر</option>
+               <option value="Jibreal" title="محمد جبريل">محمد جبريل</option>
+               <option value="Menshawi" title="محمد صديق المنشاوي">محمد صديق المنشاوي</option>
+               <option value="MuhammadAyyoub" title="محمد أيوب">محمد أيوب</option>
+               <option value="MustafaIsmael" title="مصطفى إسماعيل">مصطفى إسماعيل</option>
+               </select>       
+          </p>
+		    </div>
+			</td>
+			<td>&nbsp;</td>
+			 <td>
+					
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button> 
+					
+					</td>
+					
+			</tr>
+			<tr>
+					<td colspan="3">
+					<div style="float:right;">
+					 <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.spreadquran.com" data-via="spreadquran_com" data-hashtags="spreadquran">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+					 <div style="float:right;" class="fb-send" data-href="http://www.spreadquran.com"></div>&nbsp;
+					<div style="float:right;margin:0px 4px 2px 0px;" class="fb-like"  data-href="https://www.facebook.com/spreadquran"   data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>		
+										
+					</td>
+					 </tr>
+			</table>
+				</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav" style="text-align:center;width:100%;">
+						
+						<li style="display:inline-block;float:none;"><a href="#" onClick="FB_SharePageLike()"  >سجل اعجابك</a>			
+						</li>
+						
+						<li style="display:inline-block;float:none;"><a href="#" onClick="FB_SendLinkToFriends()" >أرسل لصديق</a></li>
+						<li style="display:inline-block;float:none;"><a href="#" onClick="FB_AddAppToPage()" >أضف البرنامج    لصفحتك !</a></li>
+						
+						<li style="display:inline-block;float:none;"><a href="#" onClick="FB_GetFriendsRequest()" >أدع أصدقائك !</a></li>
+						
+						
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container -->
+		</nav>
+
+
+
+
+
+	</section> <!-- .navigation_bar -->
+
+
+	<!-- Book -->
+	<section class="book" >
+		<div class="">
+			<div class="container section-wrapper">
+				<div class="row">
+					<div class="">
+					<div class="">
+<div id="divSoura" class="" ></div>
+<br><br>
+<div  style="text-align:center" style="background-color:#DCDCDC;" >
+<br>
+<div class="fb-comments" data-href="https://apps.facebook.com/quran_tafsir/"   data-numposts="10" data-colorscheme="light" data-mobile="1" data-order-by="reverse_time" ></div>
+</div>
+
+<div style="width:100%;text-align:center;" class="fb-post" data-href="https://www.facebook.com/spreadquran/posts/1650584621864156" data-mobile="1"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/spreadquran/posts/1650584621864156"><p>&quot;On no soul doth Allah Place a burden greater than it can bear. It gets every good that it earns, and it suffers every...</p>Posted by <a href="https://www.facebook.com/spreadquran/">Spread The Quran - spreadquran.com</a> on&nbsp;<a href="https://www.facebook.com/spreadquran/posts/1650584621864156">Saturday, January 2, 2016</a></blockquote></div></div>
+
+<br>
+<div style="width:100%;text-align:center;" class="fb-page" data-href="https://www.facebook.com/spreadquran/" data-tabs="timeline" data-mobile="1" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/spreadquran/"><a href="https://www.facebook.com/spreadquran/">Spread The Quran - spreadquran.com</a></blockquote></div></div>
+
+</div>
+
+						 
+					</div>
+				</div>
+			</div> <!-- .container -->
+		</div> <!-- /.book-bg -->
+	</section> <!-- #book --> 
+	 
+ 	
+ 	 
+ 
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					&copy; 2016 spreadquran.com.
+				</div>
+				<div class="col-sm-4 text-center">
+					<span class="social-icons">
+						<a href="https://www.facebook.com/spreadquran/" target="_blank"><i class="ion-social-facebook"></i></a>
+						<a href="https://twitter.com/spreadquran_com" target="_blank"><i class="ion-social-twitter"></i></a>
+						
+					</span>
+				</div>
+				<div class="col-sm-4">
+					<div class="themewagon">
+						 <a href="http://www.spreadquran.com">spreadquran.com</a> - contact@spreadquran.com
+					</div>
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</footer>
+
+
+
+	
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4807913-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 640px;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.key {
+    text-align: right;
+    width: 200px;
+}
+
+.key, .value {
+    padding: 3px 10px 3px 0;
+    word-break: break-word;
+}
+
+tr:nth-of-type(even) {
+    background-color: #DDDDDD;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #EEEEEE;
+}

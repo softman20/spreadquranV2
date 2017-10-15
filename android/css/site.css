@@ -1,0 +1,86 @@
+body{
+	background-color:#eeeeee;
+	margin-top:20px;
+/*	box-shadow:0 0 18.75em rgba(0, 0, 0, 0.5) inset;*/
+
+}
+	
+	#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/quran-wallpaper.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+/*    opacity: 0.5;*/
+/*    filter:alpha(opacity=80);*/
+	z-index:-1;
+}
+.popup {
+    text-align: center; 
+   /* padding: 10px;*/
+    background-color: #eee;
+    border-color: #eee;
+	direction:rtl;
+	border-radius:7px;
+	border-style:unset;
+}
+.popup.shadow{
+	box-shadow:0 0 0.75em rgba(0, 0, 0, 0.5) inset;
+	padding: 0 13px;
+}
+.popup ul {
+    padding: 0;
+    margin: 0;
+	list-style:none;
+}
+
+.popup li {
+    float: none;
+    padding: 6px 0;
+}
+.popup li.tafsir { padding:10px 0;}
+/*
+.popup a {
+    background: transparent;
+    padding: 0;
+	font-size:11px;
+}
+.popup a:hover {
+    background: transparent;
+    text-decoration: underline;
+    color: red;
+}
+*/
+.soura{font-family:'traditional arabic';text-align:center;background-color:#fffcdc;border-color:#fffcdc;border-radius:7px;box-shadow:0 0 0.75em rgba(0, 0, 0, 0.5) inset;width:625px;}
+.ayaah{font-family:'Traditional Arabic';font-size:22px;color:#333300;text-decoration:none;line-height:2;}
+.ayaah.selected{background-color:#EEEEEE;border-radius:5px;font-weight:bold;}
+.ayaahNumber{font-family:'Traditional Arabic';font-size:28px;color:#333300;text-decoration:none;color:#005500;white-space:nowrap;font-size:18px;}
+.eyet{background-image:url("../img/p001_05.gif");text-align:justify;padding:10px;line-height:1.7;}
+.souraTitle {font-weight: bold; font-size: 30px; font-family: Traditional Arabic; color: darkRed;}
+
+
+ 
+
+.audioPlayerTitle { 
+color: rgb(255, 255, 255); font-weight: bold; margin-top: 0px; background-color: #3f3f3f;
+}
+
+.audioPlayerTitleEya{
+	color: rgb(255, 255, 255); font-weight: bold; margin:-4px 0 0 32px; background-color: #3f3f3f;width:300px;
+}
+
+.fb-like-box {
+background:#fafafa;
+color: #fff;
+width:250px;
+padding:0 0px;
+margin:10px 0;
+border:solid 1px #c7c7c7;
+-webkit-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);
+-moz-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.30);
+}
